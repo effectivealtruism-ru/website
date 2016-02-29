@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+<title>{% block title %}Главная{% endblock %} — effectivealtruism.ru</title>
+<body>
+  <div class="main">
+    <header class="main-header">
+      <h1><a href='/'>Эффективный альтруизм</a></h1>
+      <nav class="main-menu">
+        <ul class="nav navbar-nav">
+          <li{% if this._path == '/' %} class="active"{% endif
+            %}><a href="{{ '/'|url }}">Главная</a></li>
+          {% for href, title in [
+            ['/content', 'Материалы'],
+            ['/about', 'О сайте']
+          ] %}
+            <li{% if this.is_child_of(href) %} class="active"{% endif
+              %}><a href="{{ href|url }}">{{ title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      <hr>
+    </header>
+    <div class="page">
+      {% block body %}{% endblock %}
+    </div>
+    <footer class="main-footer">
+      <hr>
+      <a href='mailto:me@berekuk.ru'>me@berekuk.ru</a> | <a href='github.com/effectivealtruism-ru/effectivealtruism-ru.github.io'>Github repo</a>
+    </footer>
+  </main>
+</body>

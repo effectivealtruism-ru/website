@@ -1,0 +1,13 @@
+title: Про этот сайт
+---
+body:
+
+# Команда
+
+Первую версию сайта написал [Вячеслав Матюхин](http://berekuk.ru/).
+
+# Технологии
+
+Этот сайт сделан с помощью CMS [Lektor](https://www.getlektor.com/).
+
+Исходный код тут: [Github repo](https://github.com/effectivealtruism-ru/effectivealtruism-ru.github.io). Patches welcome :)

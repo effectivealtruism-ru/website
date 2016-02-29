@@ -1,0 +1,66 @@
+@import "http://webfonts.ru/import/robotoslab.css";
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.4em;
+    margin: 50px 25px;
+    background-image: url(/static/pw_maze_white.png);
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+div.main {
+    background: white;
+    width: 760px;
+    margin: 0 auto;
+}
+div.page {
+}
+.main-header, .main-footer, div.page {
+    padding: 20px 30px;
+}
+.main-header {
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.main-header h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.main-menu ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+.main-menu ul li.active a {
+    color: #33bbdf;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Slab';
+}
+
+div.page {
+    min-height: 60vh;
+}
