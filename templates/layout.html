@@ -4,6 +4,7 @@
 <title>{% block title %}Главная{% endblock %} — effectivealtruism.ru</title>
 <body>
   <div class="main">
+
     <header class="main-header">
       <h1><a href='/'>Эффективный альтруизм</a></h1>
       <nav class="main-menu">
@@ -21,12 +22,15 @@
       </nav>
       <hr>
     </header>
+
     <div class="page">
       {% block body %}{% endblock %}
     </div>
+
     <footer class="main-footer">
       <hr>
       <a href='mailto:me@berekuk.ru'>me@berekuk.ru</a> | <a href='github.com/effectivealtruism-ru/effectivealtruism-ru.github.io'>Github repo</a>
     </footer>
+
   </main>
 </body>
