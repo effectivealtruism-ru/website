@@ -1,5 +1,7 @@
 # Сайт effectivealtruism.ru
 
+[![Build Status](https://travis-ci.org/effectivealtruism-ru/website.svg?branch=master)](https://travis-ci.org/effectivealtruism-ru/website)
+
 Сайт сделан на движке [Lektor](https://www.getlektor.com/), это такой генератор статических сайтов. Шаблоны для генерации сайта находятся в этом бранче. В бранче `gh-pages` - статический html, который выкладывается на Github Pages командой `lektor deploy`.
 
 # Как что-то поправить
