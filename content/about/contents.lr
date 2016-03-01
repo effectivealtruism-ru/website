@@ -11,3 +11,7 @@ body:
 Этот сайт сделан с помощью CMS [Lektor](https://www.getlektor.com/).
 
 Исходный код тут: [Github repo](https://github.com/effectivealtruism-ru/website). Patches welcome :)
+
+## Как исправить что-нибудь на сайте
+
+Читайте [инструкцию](https://github.com/effectivealtruism-ru/website#Я-не-умею-писать-код-и-просто-хочу-поправить-тексты).
