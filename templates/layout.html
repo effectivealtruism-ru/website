@@ -3,6 +3,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+
   <title>{% block title %}Главная{% endblock %} — effectivealtruism.ru</title>
 </head>
 <body>
@@ -23,15 +25,14 @@
           {% endfor %}
         </ul>
       </nav>
-      <hr>
     </header>
 
     <div class="page">
       {% block body %}{% endblock %}
     </div>
 
+    <hr>
     <footer class="main-footer">
-      <hr>
       <a href='mailto:me@berekuk.ru'>me@berekuk.ru</a> | <a href='github.com/effectivealtruism-ru/effectivealtruism-ru.github.io'>Github repo</a>
     </footer>
 
