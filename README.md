@@ -18,7 +18,7 @@
 
 В файлах contents.lr находится текстовое описание страниц. Найдите тот, который вы хотите поправить, и нажмите иконку "Edit this file" в правом верхнем углу:
 
-![Иконка Edit this file](http://effectivealtruism.ru/static/github-edit-tutorial.png)
+<img src='http://effectivealtruism.ru/static/github-edit-tutorial.png' width='372' height='237' alt='Иконка Edit this site' />
 
 Отредактируйте то, что нужно, и нажмите большую зелёную кнопку "Propose file change" внизу.
 
