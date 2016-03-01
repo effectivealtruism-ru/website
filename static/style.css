@@ -52,14 +52,20 @@ div.main {
 
 .main-header h1 {
     margin: 0;
-    padding: 15px;
+    padding: 8px;
     font-weight: bold;
-    font-size: 42px;
-    line-height: 1.2em;
+    font-size: 2em;
+    line-height: 1em;
 }
 .main-header h1 a {
     color: black;
     text-decoration: none;
+    display: table;
+    margin: 0 auto;
+}
+.main-header h1 a span {
+    vertical-align: middle;
+    display: table-cell;
 }
 
 .main-menu ul {
