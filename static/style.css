@@ -1,40 +1,61 @@
 @import "http://webfonts.ru/import/robotoslab.css";
 
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.4em;
-    margin: 50px 25px;
-    background-image: url(/static/pw_maze_white.png);
 }
 
 a {
     color: #2a99b6;
 }
-
 a:hover {
     color: #33bbdf;
 }
 
+h1, h2, h3, header {
+    font-family: 'Roboto Slab';
+}
+h1 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+h2 {
+    font-size: 1.2em;
+}
+h3 {
+    font-size: 1em;
+}
+
+
 div.main {
     background: white;
-    width: 760px;
-    margin: 0 auto;
 }
-div.page {
+
+.page, .main-footer {
+    padding: 0 5px;
 }
-.main-header, .main-footer, div.page {
-    padding: 20px 30px;
+
+.main-menu {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #eff;
+    padding: 10px;
 }
 .main-header {
     text-align: center;
+    margin: 0;
 }
 
 .main-header h1 {
     margin: 0;
-    font-weight: normal;
-    font-size: 36px;
-    margin-bottom: 20px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.2em;
 }
 .main-header h1 a {
     color: black;
@@ -45,22 +66,36 @@ div.page {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
 }
 
 .main-menu ul li {
     display: inline;
-    margin: 0 8px 0 0;
+    text-transform: uppercase;
+    margin: 0 12px 0 0;
     padding: 0;
 }
-.main-menu ul li.active a {
-    color: #33bbdf;
+.main-menu ul li a {
+    text-decoration: none;
 }
-
-h1, h2, h3 {
-    font-family: 'Roboto Slab';
+.main-menu ul li.active a {
+    color: black;
 }
 
 div.page {
+    max-width: 860px;
+    margin: 0 auto;
     min-height: 60vh;
+}
+.page-header {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+    text-align: center;
+}
+
+.main-footer {
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 0.7em;
 }
