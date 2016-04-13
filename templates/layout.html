@@ -18,6 +18,7 @@
             %}><a href="{{ '/'|url }}">Главная</a></li>
           {% for href, title in [
             ['/content', 'Материалы'],
+            ['/moscow', 'Встречи в Москве'],
             ['/about', 'О сайте']
           ] %}
             <li{% if this.is_child_of(href) %} class="active"{% endif
