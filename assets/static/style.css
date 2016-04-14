@@ -104,3 +104,11 @@ div.page {
     text-align: center;
     font-size: 0.7em;
 }
+
+.youtube iframe {
+  width: 560px;
+  height: 315px;
+  display: block;
+  margin: 30px auto;
+  border: 0;
+}
