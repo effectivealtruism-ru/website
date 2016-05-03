@@ -17,7 +17,7 @@
           <li{% if this._path == '/' %} class="active"{% endif
             %}><a href="{{ '/' | url }}">Главная</a></li>
           {% for href, title in [
-            ['/content', 'Материалы'],
+            ['/translations', 'Переводы'],
             ['/moscow', 'Встречи в Москве'],
           ] %}
             <li{% if this.is_child_of(href) %} class="active"{% endif

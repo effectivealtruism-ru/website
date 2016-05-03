@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ this.title or super() }}{% endblock %}
+
+{% block body %}
+  <header class="page-author">{{ this.author }}</header>
+  <header class="page-title">{{ this.title }}</header>
+  {{ this.body }}
+  <div class="translated-source">
+    Оригинал: <a href="{{ this.source }}">{{ this.source }}</a>
+  </div>
+{% endblock %}
