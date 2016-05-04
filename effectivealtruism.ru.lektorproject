@@ -3,4 +3,5 @@ name = effectivealtruism.ru
 locale = ru_RU
 
 [servers.ghpages]
+name = Production
 target = ghpages+https://effectivealtruism-ru/website?cname=effectivealtruism.ru
