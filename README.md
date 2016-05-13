@@ -1,5 +1,7 @@
 # Сайт effectivealtruism.ru
 
+[![Build Status](https://travis-ci.org/effectivealtruism-ru/website.svg?branch=master)](https://travis-ci.org/effectivealtruism-ru/website)
+
 Сайт сделан на движке [Lektor](https://www.getlektor.com/), это такой генератор статических сайтов. Шаблоны для генерации сайта находятся в этом бранче. В бранче `gh-pages` - статический html, который выкладывается на Github Pages командой `lektor deploy`.
 
 # Как что-то поправить
@@ -25,3 +27,9 @@
 Отредактируйте то, что нужно, и нажмите большую зелёную кнопку `"Propose file change"` внизу.
 
 Готово! В репозитории будет создан pull request (запрос на внесение изменений), мы его проверим и добавим на сайт.
+
+# Технические подробности
+
+## Как происходит выкладывание новых версий на сайт?
+
+Как только код попадает в master-бранч, запускается автоматическая сборка в [Travis CI](https://travis-ci.org/effectivealtruism-ru/website). Если она проходит успешно, то сайт обновляется автоматически.

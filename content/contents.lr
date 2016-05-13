@@ -1,10 +1,67 @@
-title: Эффективный альтруизм — это растущее социальное движение, которое использует аргументированный, основанный на фактах и свидетельствах подход, чтобы определить наиболее эффективные способы улучшить мир.
+title: Эффективный альтруизм
 ---
 body:
-Движение эффективного альтруизма в России только начинает развиваться. Ссылки на некоторые материалы вы можете найти [тут](/content).
 
-<iframe src="https://embed-ssl.ted.com/talks/lang/ru/peter_singer_the_why_and_how_of_effective_altruism.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+#### tagline ####
+text: Эффективный альтруизм — это растущее социальное движение, которое использует аргументированный, основанный на фактах и свидетельствах подход, чтобы определить наиболее эффективные способы улучшить мир.
+#### youtube ####
+link: https://www.youtube.com/embed/Diuv3XZQXyc
+----
+title: Питер Сингер, австралийский философ и один из основателей движения, рассказывает про эффективный альтруизм.
 
-### Встречи
+#### text ####
+text:
 
-В Москве встречи по эффективному альтруизму проходят в антикафе "Кочерга". Подробнее: [FB](https://www.facebook.com/groups/1568058766787596/?fref=ts), [VK](https://vk.com/kocherga_ea).
+## В России
+
+Движение эффективного альтруизма в России только начинает развиваться. Переводы некоторых материалов можно найти на этом сайте, в разделе [Переводы](/content).
+
+Из других текстов на русском языке, пока что, есть только несколько [обзорных](http://www.psychologies.ru/self-knowledge/smysl-zhizni/effektivnyiy-altruizm-chto-eto-takoe/) [статей](https://www.vice.com/ru/read/why-are-young-people-being-so-altruistic-209) [в онлайн-СМИ](https://esquire.ru/william-macaskill)
+и [статья на Википедии](https://ru.wikipedia.org/wiki/Эффективный_альтруизм).
+
+### Социальные сети
+
+* [Группа в FB](https://www.facebook.com/groups/1568058766787596/?fref=ts)
+* [Группа ВКонтакте](https://vk.com/effectivealtruism)
+
+### Сообщество
+
+* [Чат в slack](lesswrongru.slack.com) - здесь в канале **#effective-altruism**
+обсуждения дальнейшего развития
+* [Документ в Hackpad](https://lesswrong-ru.hackpad.com/--Esj1Hu228Ys) о
+дальнейшем развитии
+
+## В мире
+
+(все сайты на английском языке)
+
+* [Introduction to Effective Altruism](http://www.effective-altruism.com/ea/6x/introduction_to_effective_altruism/)
+* [effectivealtruism.org](http://www.effectivealtruism.org/), [effectivealtruism.com](http://www.effectivealtruism.com/) - заглавные страницы движения
+* [GiveWell - организация, занимающаяся анализом эффективности благотворительных организаций](http://www.givewell.org/)
+* [Giving What We Can - международное сообщество за популяризацию наиболее эффективных по стоимости стратегий борьбы с бедностью](https://www.givingwhatwecan.org/)
+* [Effective Altruism Forum](http://effective-altruism.com/)
+* [Effective Altruism - Facebook](https://www.facebook.com/groups/effective.altruists/)
+* [Effective Altruism Hub](https://eahub.org/) - карта и база профилей и групп эффективного альтруизма по всему миру
+
+#### html ####
+html:
+
+<!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+  /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup" style="margin-top: 80px; margin-bottom: 100px">
+<form action="//effectivealtruismhub.us10.list-manage.com/subscribe/post?u=6674b2f70fed64e610d630527&amp;id=ce089278c0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <label for="mce-EMAIL">Чтобы узнавать о новых материалах и проектах, подпишитесь на нашу рассылку!</label>
+  <label for="mce-EMAIL" style="font-weight: normal">(никакого спама, обещаем)</label>
+  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Ваш e-mail" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6674b2f70fed64e610d630527_ce089278c0" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Подписаться" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>

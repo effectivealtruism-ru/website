@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block body %}
+  <div class="translations">
+    <h2>Переводы статей из <a href="http://www.effective-altruism.com/ea/6x/introduction_to_effective_altruism/">Effective Altruism Handbook</a></h2>
+
+    <nav class="translations-index">
+      {% for translated in this.children %}
+      <div>
+        {{ translated.author }}: <a href="{{ translated | url }}">{{ translated.title }}</a>
+      </div>
+      {% endfor %}
+    </nav>
+
+    <div>
+      {{ this.how_to_help }}
+    </div>
+  </div>
+{% endblock %}
