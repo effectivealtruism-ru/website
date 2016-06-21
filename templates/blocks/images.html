@@ -1,0 +1,5 @@
+<div class="images">
+  {% for image in record.attachments.images %}
+  <img src="{{ image.thumbnail(480) | url }}">
+  {% endfor %}
+</div>
