@@ -165,3 +165,13 @@ div.main {
 .images {
   text-align: center;
 }
+
+.translation-author-vk {
+  background-image: url(/static/vk.png);
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}
