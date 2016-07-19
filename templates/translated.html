@@ -5,8 +5,16 @@
 {% block body %}
   <header class="page-author">{{ this.author }}</header>
   <header class="page-title">{{ this.title }}</header>
+
   {{ this.body }}
+
   <div class="translated-source">
     Оригинал: <a href="{{ this.source }}">{{ this.source }}</a>
   </div>
+
+  {% if this.translation_author %}
+    <div class="translation-author">
+      Автор перевода: {{ this.translation_author }}
+    </div>
+  {% endif %}
 {% endblock %}
