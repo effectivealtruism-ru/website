@@ -19,6 +19,7 @@
           {% for href, title in [
             ['/translations', 'Переводы'],
             ['/moscow', 'Встречи в Москве'],
+            ['/globalrisks', 'Самые важные проблемы'],
           ] %}
             <li{% if this.is_child_of(href) %} class="active"{% endif
               %}><a href="{{ href | url }}">{{ title }}</a></li>
